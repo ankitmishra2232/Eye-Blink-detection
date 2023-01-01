@@ -43,7 +43,7 @@ def landmarksDetection(img, results, draw=False):
     if draw:
         [cv.circle(img, p, 2, (0, 255, 0), -1) for p in mesh_coord]
 
-    # returning the list of tuples for each landmarks
+    # returning the list of tuples for each landmark
     return mesh_coord
 
 
